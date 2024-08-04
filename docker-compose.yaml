@@ -1,0 +1,30 @@
+
+### Docker Compose
+
+#### `docker-compose.yml`
+```yaml
+version: '3.8'
+services:
+  service-a:
+    build: ./service-a
+    ports:
+      - "3001:3001"
+
+  service-b:
+    build: ./service-b
+    ports:
+      - "3002:3002"
+
+  service-c:
+    build: ./service-c
+    ports:
+      - "3003:3003"
+
+  frontend:
+    build: ./frontend
+    ports:
+      - "3000:3000"
+    depends_on:
+      - service-a
+      - service-b
+      - service-c
