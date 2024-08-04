@@ -1,31 +1,31 @@
 # Node.js
-node_modules/
-npm-debug.log
+#node_modules/
+#npm-debug.log
 
 # Python
-__pycache__/
-*.pyc
-venv/
+#__pycache__/
+#*.pyc
+#venv/
 
 # Go
-bin/
-*.exe
-*.exe~
-*.dll
-*.so
-*.dylib
+#bin/
+#*.exe
+#*.exe~
+#*.dll
+#*.so
+#*.dylib
 
 # React
-build/
-.DS_Store
+#build/
+#.DS_Store
 
 # Docker
-**/Dockerfile
-docker-compose.yml
+#**/Dockerfile
+#docker-compose.yml
 
 # Kubernetes
-k8s/
+#k8s/
 
 # Miscellaneous
-*.log
-*.env
+#*.log
+#*.env
